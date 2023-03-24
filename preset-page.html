@@ -1,64 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
+    <title>Presets</title>
     <link rel="stylesheet" href="assets/reset.css">
 </head>
-
 <body>
     <!-- HEADER -->
-    <div class="header-contato">
-        <img src="img/07-banners/banner-volte-ao-passado-comigo.jpg" alt="">
-        <h1>Volte ao passado comigo</h1>
-        <p>contato</p>
+    <div class="header-presets">
+        <img src="img/07-banners/banner-para-fotografos.jpg" alt="">
+        <h1>Preset 01</h1>
+        <a href="para-fotografos.html"><p>voltar</p></a>
     </div>
-
     <!-- MAIN -->
+    <div class="main-presets">
+        <div class="texto-main-presets">
+            <h2>Descrição</h2>
+            <p>Preset 01 <strong>adicionará um acabamento fosco quente</strong> às suas imagens para dar uma aparência de filme retrô. Esta ação funciona melhor com todos os tipos de fotografia. Adicione um pouco de interesse às suas imagens com esta bela ação de um clique do Photoshop.
+            </p>
+        </div>
 
-    <div class="texto-topo-main">
-        <p>Será uma alegria te levar nessa volta ao passado. Entre em contato e vamos definir o melhor orçamento para
-            sua viagem fotográfica.</p>
+        <div class="logos-preset">
+            <img src="img/06-para-fotografos/Adobe-Photoshop-Logo.png" alt="Logo Adobe Photoshop">
+            <img src="img/06-para-fotografos/lightroom-cc.png" alt="Logo Adobe Lightroom">
+            <p>105 downloads</p>
+        </div>
+        <div class="img-preset">
+            <img src="img/06-para-fotografos/foto-preset.jpg" alt="foto mostrando efeito de editor de imagem tradando foto de mulher olhando para a câmera">
+        </div>
+        <div class="compra-preset">
+            <div class="precos">
+                <p>de: <del>R$ 110,00</del></p>
+                <p>por: <ins>R$ 58,50</ins></p>
+            </div>
+            <a href="#"><button class="button-comprar">Comprar</button></a>
+        </div>
     </div>
 
-    <div class="botao-whatsapp-contato" style="display: flex;">
-        <span>Enviar mensagem por: </span> <a
-            href="https://api.whatsapp.com/message/YTPTGGXGTERPN1?autoload=1&app_absent=0"><button>whatsapp</button></a>
-    </div>
-
-    <!-- FORM -->
-    <div class="formulario-contato">
-        <form action="/enviar-contato" method="post">
-            <div>
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
-            </div>
-            <div>
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div>
-                <label for="cidade">Cidade:</label>
-                <input type="text" id="cidade" name="cidade" required>
-            </div>
-            <div>
-                <label for="estado">Estado:</label>
-                <input type="text" id="estado" name="estado" required>
-            </div>
-            <div>
-                <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem" required></textarea>
-            </div>
-            <div>
-                <button type="submit">enviar email</button>
-            </div>
-        </form>
-    </div>
-
-    <!--FOOTER -->
+    <!--FOOTER-->
     <div class="footer-sobre">
         <div class="logo-rodape col-1">
             <img src="img/07-icones-logotipos/logo-principal-rodope.svg" alt="">
@@ -120,5 +101,4 @@
         </p>
     </div>
 </body>
-
 </html>
