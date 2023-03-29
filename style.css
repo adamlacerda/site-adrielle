@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Gradia-Bold';
+    src: url('../Gradia/Gradia\ Bold.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Gradia-Italic';
+    src: url('../Gradia/Gradia\ Bold\ Italic.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Gradia-Light';
+    src: url('../Gradia/Gradia\ Light.otf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Gradia-Regular';
+    src: url('assets/fonts/Gradia/Gradia\ Regular.otf') format('truetype');
+  }
+  @font-face{
+    font-family: 'Open Sans';
+    src: url('assets/fonts/OpenSans/OpenSans-Light.ttf') format('truetype');
+  }
+
+.content-title{
+    margin-bottom:3rem;
+}
+.content-text{
+    padding: 2.8rem 1.5rem;
+    padding-bottom: 0;
+}   
+.content-image{
+    padding-top: 5rem;
+}
+
+.btn{
+    border: none;
+    padding: 1.5rem 3rem;
+    font-size: 2rem;
+    background: #f0792d;
+    color: #fff;
+    border-radius: 4px;
+    font-family: 'Gradia';
+    font-weight: 900;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+}
+.btn:hover{
+    background-color: #b3784c;
+    transition: 0.5s ease-in;
+}
+
+.slide-section{
+    background-image: url('assets/img/01-home/depoimentos-bg.jpg');
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+.slide-title{
+    padding:1rem
+}
+.slide-title h1{
+    font-size: 50px;
+}
+
+.pictures-section{
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.pictures-section .image-card img{
+    width: 99%;
+    transition: filter 0.3s ease-in;
+}
+.pictures-section.relative img{
+    position: relative;
+    bottom: -5px;
+
+}
+.pictures-section .image-card img:hover{
+    width: 99%;
+    filter: grayscale(1);
+    transition: filter 0.3s ease-in;
+}
+.footer-section{
+    background-image: url('assets/img/07-banners/rodape-desktop-3.jpg');
+    background-size: cover;
+    height: 200px;
+    padding: 1rem;
+}
+
+.footer-about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.text-box{
+    cursor: pointer;
+    text-align: center;
+}
+.text-box:hover h2{
+    color: #f0792d;
+    transition: 0.5s ease-in-out;
+}
+.text-box:hover i{
+    color: #f0792d;
+    transition: 0.5s ease-in-out;
+}
+footer{
+    height: 50px;
+    background-color: #2f2a2e;
+}

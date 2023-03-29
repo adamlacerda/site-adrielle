@@ -1,0 +1,93 @@
+.nav-toggle{
+    text-align: center;
+    border-radius: 2rem;
+    padding: 1rem;
+    font-size: 0.75rem;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+}
+.nav-toggle p{
+  font-size: 10px;
+  line-height: normal;
+}
+.fixed{
+    position: fixed;
+    top: 20px;
+    margin: 1rem;
+    margin-right: 5rem;
+}
+.nav-toggle .menu-toggle{
+    background-image: url('assets/img/07-icones-logotipos/icon-menu.svg');
+    height: 20px;
+    background-repeat: no-repeat;
+}
+.nav-toggle-header{
+  background-color: #FFF;
+  transition: background-color ease-in-out 0.5s;
+
+}
+.nav-toggle-hover:hover{
+    background-color: orange;
+    transition: background-color ease-in-out 0.5s;
+    color: #FFF;
+}
+.nav-toggle:hover img{
+    background-image: url('assets/img/07-icones-logotipos/icon-menu-white.svg');
+}
+
+.nav-bar{
+    display: none;
+}
+
+
+.overlay {
+    height: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: url('assets/img/07-banners/fundo-menu-fullscreen-desktop.jpg');
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-color: rgb(254 254 254);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 0.75rem;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
