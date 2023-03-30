@@ -17,134 +17,189 @@
     <meta name="robots" content="index, follow">
     
     <title>Sobre</title>
-    <link rel="stylesheet" href="assets/reset.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/global.css">
 </head>
 
 <body>
     <div id="sobre" class="sobre-container">
         <!--HEADER-->
-        <div class="banner-sobre">
-            <img src="img/07-banners/pag-fotografa-banner.jpg" alt="">
-            <h1>A fotógrafa</h1>
-            <p>Sobre</p>
-        </div>
+        <header>
+            <nav id="menu-nav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                  <img src="assets/img/07-icones-logotipos/icon-fechar-bt.svg" alt="">
+                  <p>fechar</p>
+                </a>
+        
+                <div class="overlay-content">
+                  <a href="index.html"><img src="assets/img/07-icones-logotipos/icon-passarinho-menu.svg" alt=""></a>
+                  <a href="sobre.html">
+                    <h4>A fotógrafa</h4>
+                    <p>sobre</p>
+                  </a>
+                  <a href="portfolio-de-ensaios.html">
+                    <h4>Histórias que já contei</h4>
+                    <p>Alguns ensaios que já realizei</p>
+                    
+                  </a>
+                  <a href="como-e-ensaio.html ">
+                    <h4>Máquina do tempo</h4>
+                    <p>Como é o ensaio</p>
+                  </a>
+                  <a href="contato.html">
+                    <h4>Volte ao passado comigo</h4>
+                    <p>Contato</p>
+                  </a>
+                  <a href="preset-page.html">
+                    <h4>Para fotógrafos</h4>
+                    <p>Preset</p>
+                  </a>
+                </div>
+        
+              </nav>
+              <span class="nav-toggle nav-toggle-hover nav-toggle-header fixed" onclick="openNav()">
+                <img src="assets/img/07-icones-logotipos/icon-menu.svg" alt="">
+                <p>Menu</p>
+              </span>
+        
+              <script>
+                function openNav() {
+                  document.getElementById("menu-nav").style.height = "100%";
+                }
+        
+                function closeNav() {
+                  document.getElementById("menu-nav").style.height = "0%";
+                }
+              </script>
+            <!-- END NAV -->
+            <div class="banner-sobre">
+                <img src="img/07-banners/pag-fotografa-banner.jpg" alt="">
+                <h1>A fotógrafa</h1>
+                <p>Sobre</p>
+            </div>
+        </header>
 
         <!-- MAIN -->
-        <div class="sobre-texto">
-            <p>Muito prazer! Meu nome é Adrielle Girodo, mineira de Belo Horizonte, e sou fascinada por contar histórias
-                através de fotografias.
-            </p>
-            <p>Sou formada em Comércio Exterior e tenho MBA em Marketing Estratégico, mas nunca me senti completa na
-                área. Esse cenário mudou quando tive a oportunidade de ingressar em um curso de fotógrafos, e
-                <strong>pude finalmente despertar essa paixão</strong> que sempre habitou em mim.
-            </p>
-            <p>No momento em que tive meu primeiro contato com uma câmera fotográfica profissional, percebi que minha
-                jornada não poderia ser outra. Hoje, <strong>após abdicar de toda a minha vida dentro do escritório para
-                    dar ouvidos ao meu coração,</strong> finalmente posso compreender que quem trabalha com o que ama,
-                nunca mais precisa trabalhar na vida.</p>
-            <p>Em paixão às memórias, busco eternizar momentos únicos através do click da câmera. E foi assim que me
-                encontrei na FOTOGRAFIA DE ÉPOCA</p>
-            <p>Gosto de seguir o caminho não convencional e isso me fascina! </p>
-            <p>Espero que esta página consiga te transmitir um pouco dessa experiência imersiva na volta ao passado, e
-                que você consiga perceber <strong>o meu amor pelo trabalho</strong> se tornando visível por meio dos
-                meus registros.</p>
-        </div>
-        <div class="box-texto-meio">
-            <div class="amor">
-                <h2>Amor...</h2>
-                <p>… aos detalhes faz da experiência e minhas fotos especiais.</p>
-            </div>
-            <div class="cuidado">
-                <h2>Cuidado...</h2>
-                <p>… com a preparação do momento para tornar a nossa sessão inesquecível.</p>
-            </div>
-            <div class="tecnica">
-                <h2>Técnica...</h2>
-                <p>… em cada click para valorizar o seu melhor.</p>
-            </div>
-        </div>
-        <div class="img-meio">
-            <img src="img/02-Sobre/sobre-foto-arielle.jpg" alt="mulher sorridente olhando para a câmera">
-        </div>
-        <div class="carousel">
-            <div class="depoimentos">
-                <img src="img/01-home/depoimentos-bg.jpg" alt="papel envelhecido no fundo dos textos">
-                <h2>Voltaram no tempo comigo:</h2>
-                <img src="img/01-home/fonto-depoimento.png" alt="casal com roupas antigas olhando um para o outro">
-                <h3>Aline Perpétuo: <span>'Trabalho totalmente impecável!'</span></h3>
-                <p>Nao tenho nada que por defeito mesmo, atendimento incrível, esclarecimento de todas as nossas
-                    dúvidas, cuidado na escolha de figurinos e <strong>atenção total ao nosso gosto pessoal
-                        também</strong>. Fiz fotos com meu marido e a experiencia foi sensacional.</p>
-                <p>Adrielle é super carismática, educada, polida, simpática e realmente nos leva a voltar ao passado.
+        <main>
+            <div class="sobre-texto">
+                <p>Muito prazer! Meu nome é Adrielle Girodo, mineira de Belo Horizonte, e sou fascinada por contar histórias
+                    através de fotografias.
                 </p>
+                <p>Sou formada em Comércio Exterior e tenho MBA em Marketing Estratégico, mas nunca me senti completa na
+                    área. Esse cenário mudou quando tive a oportunidade de ingressar em um curso de fotógrafos, e
+                    <strong>pude finalmente despertar essa paixão</strong> que sempre habitou em mim.
+                </p>
+                <p>No momento em que tive meu primeiro contato com uma câmera fotográfica profissional, percebi que minha
+                    jornada não poderia ser outra. Hoje, <strong>após abdicar de toda a minha vida dentro do escritório para
+                        dar ouvidos ao meu coração,</strong> finalmente posso compreender que quem trabalha com o que ama,
+                    nunca mais precisa trabalhar na vida.</p>
+                <p>Em paixão às memórias, busco eternizar momentos únicos através do click da câmera. E foi assim que me
+                    encontrei na FOTOGRAFIA DE ÉPOCA</p>
+                <p>Gosto de seguir o caminho não convencional e isso me fascina! </p>
+                <p>Espero que esta página consiga te transmitir um pouco dessa experiência imersiva na volta ao passado, e
+                    que você consiga perceber <strong>o meu amor pelo trabalho</strong> se tornando visível por meio dos
+                    meus registros.</p>
             </div>
-        </div>
-
-        <div class="cta-sobre">
-            <a href="https://api.whatsapp.com/message/YTPTGGXGTERPN1?autoload=1&app_absent=0"
+            <div class="box-texto-meio">
+                <div class="amor">
+                    <h2>Amor...</h2>
+                    <p>… aos detalhes faz da experiência e minhas fotos especiais.</p>
+                </div>
+                <div class="cuidado">
+                    <h2>Cuidado...</h2>
+                    <p>… com a preparação do momento para tornar a nossa sessão inesquecível.</p>
+                </div>
+                <div class="tecnica">
+                    <h2>Técnica...</h2>
+                    <p>… em cada click para valorizar o seu melhor.</p>
+                </div>
+            </div>
+            <div class="img-meio">
+                <img src="img/02-Sobre/sobre-foto-arielle.jpg" alt="mulher sorridente olhando para a câmera">
+            </div>
+            <div class="carousel">
+                <div class="depoimentos">
+                    <img src="img/01-home/depoimentos-bg.jpg" alt="papel envelhecido no fundo dos textos">
+                    <h2>Voltaram no tempo comigo:</h2>
+                    <img src="img/01-home/fonto-depoimento.png" alt="casal com roupas antigas olhando um para o outro">
+                    <h3>Aline Perpétuo: <span>'Trabalho totalmente impecável!'</span></h3>
+                    <p>Nao tenho nada que por defeito mesmo, atendimento incrível, esclarecimento de todas as nossas
+                        dúvidas, cuidado na escolha de figurinos e <strong>atenção total ao nosso gosto pessoal
+                            também</strong>. Fiz fotos com meu marido e a experiencia foi sensacional.</p>
+                    <p>Adrielle é super carismática, educada, polida, simpática e realmente nos leva a voltar ao passado.
+                    </p>
+                </div>
+            </div>
+            <div class="cta-sobre">
+                <a href="https://api.whatsapp.com/message/YTPTGGXGTERPN1?autoload=1&app_absent=0"
                 target="_blank"><button>volte ao passado comigo</button></a>
-        </div>
+            </div>
 
+        </main>
         <!--FOOTER-->
-        <div class="footer-sobre">
-            <div class="logo-rodape col-1">
-                <img src="img/07-icones-logotipos/logo-principal-rodope.svg" alt="">
+        <footer>
+            <div class="footer-sobre">
+                <div class="logo-rodape col-1">
+                    <img src="img/07-icones-logotipos/logo-principal-rodope.svg" alt="">
+                </div>
+                <div class="links-rodape">
+                    <div class="col-2">
+                        <div class="sobre-rodape">
+                            <a href="sobre.html">
+                                <h4>A fotógrafa</h4>
+                                <p>Sobre</p>
+                            </a>
+                        </div>
+                        <div class="ensaios-rodape">
+                            <a href="como-e-ensaio.html">
+                                <h4>Histórias que já contei</h4>
+                                <p>Alguns ensaios que já realizei</p>
+                            </a>
+                        </div>
+                        <div class="galeria-rodape">
+                            <a href="galeria-de-fotos.html">
+                                <h4>Máquina do tempo</h4>
+                                <p>Como é o ensaio</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="contato-rodape">
+                            <a href="contato.html">
+                                <h4>Máquina do tempo</h4>
+                                <p>Como é o ensaio</p>
+                            </a>
+                        </div>
+                        <div class="preset-rodape">
+                            <a href="presets-page.html">
+                                <h4>Máquina do tempo</h4>
+                                <p>Como é o ensaio</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="redes-sociais">
+                            <a href="https://api.whatsapp.com/message/YTPTGGXGTERPN1?autoload=1&app_absent=0"><img
+                                    src="img/07-icones-logotipos/icon-whatsapp.svg" alt="link para o whatsapp"></a>
+                            <a href="https://www.instagram.com/adriellegirodofotografia/"><img
+                                    src="img/07-icones-logotipos/icon-instagram.svg" alt="link para o instagram"></a>
+                        </div>
+                        <div class="lnk-politica">
+                            <a href="politica-de-privacidade.html">
+                                <p>Política de privacidade</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <img src="img/07-banners/rodape-desktop-3.jpg" alt="">
             </div>
-            <div class="links-rodape">
-                <div class="col-2">
-                    <div class="sobre-rodape">
-                        <a href="sobre.html">
-                            <h4>A fotógrafa</h4>
-                            <p>Sobre</p>
-                        </a>
-                    </div>
-                    <div class="ensaios-rodape">
-                        <a href="como-e-ensaio.html">
-                            <h4>Histórias que já contei</h4>
-                            <p>Alguns ensaios que já realizei</p>
-                        </a>
-                    </div>
-                    <div class="galeria-rodape">
-                        <a href="galeria-de-fotos.html">
-                            <h4>Máquina do tempo</h4>
-                            <p>Como é o ensaio</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="contato-rodape">
-                        <a href="contato.html">
-                            <h4>Máquina do tempo</h4>
-                            <p>Como é o ensaio</p>
-                        </a>
-                    </div>
-                    <div class="preset-rodape">
-                        <a href="presets-page.html">
-                            <h4>Máquina do tempo</h4>
-                            <p>Como é o ensaio</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="redes-sociais">
-                        <a href="https://api.whatsapp.com/message/YTPTGGXGTERPN1?autoload=1&app_absent=0"><img
-                                src="img/07-icones-logotipos/icon-whatsapp.svg" alt="link para o whatsapp"></a>
-                        <a href="https://www.instagram.com/adriellegirodofotografia/"><img
-                                src="img/07-icones-logotipos/icon-instagram.svg" alt="link para o instagram"></a>
-                    </div>
-                    <div class="lnk-politica">
-                        <a href="politica-de-privacidade.html">
-                            <p>Política de privacidade</p>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <img src="img/07-banners/rodape-desktop-3.jpg" alt="">
-        </div>
-        <div class="footer-credits" style="background-color: rgb(43, 41, 41); color: white;">
-            <p>&#169; 2023 - Adrielle Girodo Fotografia | Todos direitos reservados | <span>feito com <img
-                        src="img/07-icones-logotipos/icon-corassaum.svg" alt="coração"> por Alisson Duarte</span></p>
-        </div>
+            <div class="footer-credits" style="background-color: rgb(43, 41, 41); color: white;">
+                <p>&#169; 2023 - Adrielle Girodo Fotografia | Todos direitos reservados | <span>feito com <img
+                            src="img/07-icones-logotipos/icon-corassaum.svg" alt="coração"> por Alisson Duarte</span></p>
+                        </div>
+        </footer>
+
     </div>
 </body>
 

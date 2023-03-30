@@ -17,119 +17,172 @@
     <meta name="robots" content="index, follow">
     
     <title>Contato</title>
-    <link rel="stylesheet" href="assets/reset.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/global.css">
 </head>
 
 <body>
     <!-- HEADER -->
-    <div class="header-contato">
-        <img src="img/07-banners/banner-volte-ao-passado-comigo.jpg" alt="">
-        <h1>Volte ao passado comigo</h1>
-        <p>contato</p>
-    </div>
+    <header>
+        <nav id="menu-nav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+              <img src="assets/img/07-icones-logotipos/icon-fechar-bt.svg" alt="">
+              <p>fechar</p>
+            </a>
+    
+            <div class="overlay-content">
+              <a href="index.html"><img src="assets/img/07-icones-logotipos/icon-passarinho-menu.svg" alt=""></a>
+              <a href="sobre.html">
+                <h4>A fotógrafa</h4>
+                <p>sobre</p>
+              </a>
+              <a href="portfolio-de-ensaios.html">
+                <h4>Histórias que já contei</h4>
+                <p>Alguns ensaios que já realizei</p>
+                
+              </a>
+              <a href="como-e-ensaio.html ">
+                <h4>Máquina do tempo</h4>
+                <p>Como é o ensaio</p>
+              </a>
+              <a href="contato.html">
+                <h4>Volte ao passado comigo</h4>
+                <p>Contato</p>
+              </a>
+              <a href="preset-page.html">
+                <h4>Para fotógrafos</h4>
+                <p>Preset</p>
+              </a>
+            </div>
+    
+          </nav>
+          <span class="nav-toggle nav-toggle-hover nav-toggle-header fixed" onclick="openNav()">
+            <img src="assets/img/07-icones-logotipos/icon-menu.svg" alt="">
+            <p>Menu</p>
+          </span>
+    
+          <script>
+            function openNav() {
+              document.getElementById("menu-nav").style.height = "100%";
+            }
+    
+            function closeNav() {
+              document.getElementById("menu-nav").style.height = "0%";
+            }
+          </script>
+        <!-- END NAV -->
+        <div class="header-contato">
+            <img src="img/07-banners/banner-volte-ao-passado-comigo.jpg" alt="">
+            <h1>Volte ao passado comigo</h1>
+            <p>contato</p>
+        </div>
+    </header>
 
     <!-- MAIN -->
 
-    <div class="texto-topo-main">
-        <p>Será uma alegria te levar nessa volta ao passado. Entre em contato e vamos definir o melhor orçamento para
-            sua viagem fotográfica.</p>
-    </div>
-
-    <div class="botao-whatsapp-contato" style="display: flex;">
-        <span>Enviar mensagem por: </span> <a
-            href="https://api.whatsapp.com/message/YTPTGGXGTERPN1?autoload=1&app_absent=0"><button>whatsapp</button></a>
-    </div>
-
-    <!-- FORM -->
-    <div class="formulario-contato">
-        <form action="/enviar-contato" method="post">
-            <div>
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
-            </div>
-            <div>
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div>
-                <label for="cidade">Cidade:</label>
-                <input type="text" id="cidade" name="cidade" required>
-            </div>
-            <div>
-                <label for="estado">Estado:</label>
-                <input type="text" id="estado" name="estado" required>
-            </div>
-            <div>
-                <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem" required></textarea>
-            </div>
-            <div>
-                <button type="submit">enviar email</button>
-            </div>
-        </form>
-    </div>
+    <main>
+        <div class="texto-topo-main">
+            <p>Será uma alegria te levar nessa volta ao passado. Entre em contato e vamos definir o melhor orçamento para
+                sua viagem fotográfica.</p>
+        </div>
+        <div class="botao-whatsapp-contato" style="display: flex;">
+            <span>Enviar mensagem por: </span> <a
+                href="https://api.whatsapp.com/message/YTPTGGXGTERPN1?autoload=1&app_absent=0"><button>whatsapp</button></a>
+        </div>
+        <!-- FORM -->
+        <div class="formulario-contato">
+            <form action="/enviar-contato" method="post">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" id="cidade" name="cidade" required>
+                </div>
+                <div>
+                    <label for="estado">Estado:</label>
+                    <input type="text" id="estado" name="estado" required>
+                </div>
+                <div>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" required></textarea>
+                </div>
+                <div>
+                    <button type="submit">enviar email</button>
+                </div>
+            </form>
+        </div>
+    </main>
 
     <!--FOOTER -->
-    <div class="footer-sobre">
-        <div class="logo-rodape col-1">
-            <img src="img/07-icones-logotipos/logo-principal-rodope.svg" alt="">
+    <footer>
+        <div class="footer-sobre">
+            <div class="logo-rodape col-1">
+                <img src="img/07-icones-logotipos/logo-principal-rodope.svg" alt="">
+            </div>
+            <div class="links-rodape">
+                <div class="col-2">
+                    <div class="sobre-rodape">
+                        <a href="sobre.html">
+                            <h4>A fotógrafa</h4>
+                            <p>Sobre</p>
+                        </a>
+                    </div>
+                    <div class="ensaios-rodape">
+                        <a href="como-e-ensaio.html">
+                            <h4>Histórias que já contei</h4>
+                            <p>Alguns ensaios que já realizei</p>
+                        </a>
+                    </div>
+                    <div class="galeria-rodape">
+                        <a href="galeria-de-fotos.html">
+                            <h4>Máquina do tempo</h4>
+                            <p>Como é o ensaio</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="contato-rodape">
+                        <a href="contato.html">
+                            <h4>Máquina do tempo</h4>
+                            <p>Como é o ensaio</p>
+                        </a>
+                    </div>
+                    <div class="preset-rodape">
+                        <a href="presets-page.html">
+                            <h4>Máquina do tempo</h4>
+                            <p>Como é o ensaio</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="redes-sociais">
+                        <a href="https://api.whatsapp.com/message/YTPTGGXGTERPN1?autoload=1&app_absent=0"><img
+                                src="img/07-icones-logotipos/icon-whatsapp.svg" alt="link para o whatsapp"></a>
+                        <a href="https://www.instagram.com/adriellegirodofotografia/"><img
+                                src="img/07-icones-logotipos/icon-instagram.svg" alt="link para o instagram"></a>
+                    </div>
+                    <div class="lnk-politica">
+                        <a href="politica-de-privacidade.html">
+                            <p>Política de privacidade</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <img src="img/07-banners/rodape-desktop-3.jpg" alt="">
         </div>
-        <div class="links-rodape">
-            <div class="col-2">
-                <div class="sobre-rodape">
-                    <a href="sobre.html">
-                        <h4>A fotógrafa</h4>
-                        <p>Sobre</p>
-                    </a>
-                </div>
-                <div class="ensaios-rodape">
-                    <a href="como-e-ensaio.html">
-                        <h4>Histórias que já contei</h4>
-                        <p>Alguns ensaios que já realizei</p>
-                    </a>
-                </div>
-                <div class="galeria-rodape">
-                    <a href="galeria-de-fotos.html">
-                        <h4>Máquina do tempo</h4>
-                        <p>Como é o ensaio</p>
-                    </a>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="contato-rodape">
-                    <a href="contato.html">
-                        <h4>Máquina do tempo</h4>
-                        <p>Como é o ensaio</p>
-                    </a>
-                </div>
-                <div class="preset-rodape">
-                    <a href="presets-page.html">
-                        <h4>Máquina do tempo</h4>
-                        <p>Como é o ensaio</p>
-                    </a>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="redes-sociais">
-                    <a href="https://api.whatsapp.com/message/YTPTGGXGTERPN1?autoload=1&app_absent=0"><img
-                            src="img/07-icones-logotipos/icon-whatsapp.svg" alt="link para o whatsapp"></a>
-                    <a href="https://www.instagram.com/adriellegirodofotografia/"><img
-                            src="img/07-icones-logotipos/icon-instagram.svg" alt="link para o instagram"></a>
-                </div>
-                <div class="lnk-politica">
-                    <a href="politica-de-privacidade.html">
-                        <p>Política de privacidade</p>
-                    </a>
-                </div>
-            </div>
+        <div class="footer-credits" style="background-color: rgb(43, 41, 41); color: white;">
+            <p>&#169; 2023 - Adrielle Girodo Fotografia | Todos direitos reservados | <span>feito com <img
+                        src="img/07-icones-logotipos/icon-corassaum.svg" alt="coração"> por Alisson Duarte</span>
+            </p>
         </div>
-        <img src="img/07-banners/rodape-desktop-3.jpg" alt="">
-    </div>
-    <div class="footer-credits" style="background-color: rgb(43, 41, 41); color: white;">
-        <p>&#169; 2023 - Adrielle Girodo Fotografia | Todos direitos reservados | <span>feito com <img
-                    src="img/07-icones-logotipos/icon-corassaum.svg" alt="coração"> por Alisson Duarte</span>
-        </p>
-    </div>
+    </footer>
 </body>
 
 </html>

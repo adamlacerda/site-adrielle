@@ -1,3 +1,18 @@
+nav h4{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  padding-top: 48px;
+}
+nav p{
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-size: 24px;
+  color: #7D4C23;
+}
+.closebtn p{
+  font-size: .75rem;
+}
 .nav-toggle{
     text-align: center;
     border-radius: 2rem;
@@ -60,7 +75,7 @@
     top: 25%;
     width: 100%;
     text-align: center;
-    margin-top: 30px;
+    margin-top: -12rem;
   }
   
   .overlay a {
@@ -82,6 +97,8 @@
     right: 45px;
     font-size: 0.75rem;
   }
+
+
   
   @media screen and (max-height: 450px) {
     .overlay a {font-size: 20px}

@@ -16,100 +16,148 @@
     <meta name="robots" content="index, follow">
     
     <title>Como é o Ensaio</title>
-    <link rel="stylesheet" href="assets/reset.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/global.css">
 </head>
 <body>
     <!-- HEADER -->
-    <div class="header-ensaio">
-        <img src="img/07-banners/banner-maquina-do-tempo.jpg" alt="Banner de fundo da página de ensaios">
-        <h1>Máquina do tempo</h1>
-        <p>como é o ensaio</p>
-    </div>
-    <div class="main-ensaio">
-        <div class="texto-main-ensaio">
-            <p>Embarque autorizado! Passageiros, tomem seus assentos, porque o nosso trem com destino ao passado já vai partir.</p>
-            <p>Se ​você sempre teve o sonho de viajar no tempo, então você está no lugar certo.</p>
-            <p>​Com o <strong>ambiente adequado, um figurino sofisticado</strong> à moda antiga e uma boa trilha sonora de fundo, entraremos juntos em um túnel do tempo capaz de tornar realidade a experiência de se viver em uma outra época. </p>
-            <p>Em <strong>nosso ensaio, todo detalhe é pensado com muito carinho,</strong> ​a fim de proporcionar uma verdadeira experiência imersiva de outro século.</p>
-            <p>A temática vintage combinada com um cenário digno de cinema certamente serão capazes de criar memórias surpreendentes.</p>
+    <header>
+        <!-- Nav-->
+        <nav id="menu-nav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+              <img src="assets/img/07-icones-logotipos/icon-fechar-bt.svg" alt="">
+              <p>fechar</p>
+            </a>
+    
+            <div class="overlay-content">
+              <a href="index.html"><img src="assets/img/07-icones-logotipos/icon-passarinho-menu.svg" alt=""></a>
+              <a href="sobre.html">
+                <h4>A fotógrafa</h4>
+                <p>sobre</p>
+              </a>
+              <a href="portfolio-de-ensaios.html">
+                <h4>Histórias que já contei</h4>
+                <p>Alguns ensaios que já realizei</p>
+                
+              </a>
+              <a href="como-e-ensaio.html ">
+                <h4>Máquina do tempo</h4>
+                <p>Como é o ensaio</p>
+              </a>
+              <a href="contato.html">
+                <h4>Volte ao passado comigo</h4>
+                <p>Contato</p>
+              </a>
+              <a href="preset-page.html">
+                <h4>Para fotógrafos</h4>
+                <p>Preset</p>
+              </a>
+            </div>
+    
+          </nav>
+          <span class="nav-toggle nav-toggle-hover nav-toggle-header fixed" onclick="openNav()">
+            <img src="assets/img/07-icones-logotipos/icon-menu.svg" alt="">
+            <p>Menu</p>
+          </span>
+    
+          <script>
+            function openNav() {
+              document.getElementById("menu-nav").style.height = "100%";
+            }
+    
+            function closeNav() {
+              document.getElementById("menu-nav").style.height = "0%";
+            }
+          </script>
+        <!-- END NAV -->
+        
+        <div class="header-ensaio">
+            <img src="img/07-banners/banner-maquina-do-tempo.jpg" alt="Banner de fundo da página de ensaios">
+            <h1>Máquina do tempo</h1>
+            <p>como é o ensaio</p>
         </div>
+    </header>
 
-        <div class="box-texto-meio" style="display: flex;">
-            <div class="amor">
-                <h2>Amor...</h2>
-                <p>… aos detalhes faz da experiência e minhas fotos especiais.</p>
+    <main>
+        <div class="main-ensaio">
+            
+            <div class="texto-main-ensaio">
+                <p>Embarque autorizado! Passageiros, tomem seus assentos, porque o nosso trem com destino ao passado já vai partir.</p>
+                <p>Se ​você sempre teve o sonho de viajar no tempo, então você está no lugar certo.</p>
+                <p>​Com o <strong>ambiente adequado, um figurino sofisticado</strong> à moda antiga e uma boa trilha sonora de fundo, entraremos juntos em um túnel do tempo capaz de tornar realidade a experiência de se viver em uma outra época. </p>
+                <p>Em <strong>nosso ensaio, todo detalhe é pensado com muito carinho,</strong> ​a fim de proporcionar uma verdadeira experiência imersiva de outro século.</p>
+                <p>A temática vintage combinada com um cenário digno de cinema certamente serão capazes de criar memórias surpreendentes.</p>
             </div>
-            <div class="cuidado">
-                <h2>Cuidado...</h2>
-                <p>… com a preparação do momento para tornar a nossa sessão inesquecível.</p>
+            <div class="box-texto-meio" style="display: flex;">
+                <div class="amor">
+                    <h2>Amor...</h2>
+                    <p>… aos detalhes faz da experiência e minhas fotos especiais.</p>
+                </div>
+                <div class="cuidado">
+                    <h2>Cuidado...</h2>
+                    <p>… com a preparação do momento para tornar a nossa sessão inesquecível.</p>
+                </div>
+                <div class="tecnica">
+                    <h2>Técnica...</h2>
+                    <p>… em cada click para valorizar o seu melhor.</p>
+                </div>
             </div>
-            <div class="tecnica">
-                <h2>Técnica...</h2>
-                <p>… em cada click para valorizar o seu melhor.</p>
+            <div class="locacoes" style="display: flex;">
+                <div class="texto-locacoes">
+                    <h2>Locações</h2>
+                    <p>Toda nossa sessão é pensada com muito cuidado e apreço, de acordo com as preferências de cada cliente.</p>
+                    <p>Por isso, valorizo a liberdade do nosso viajante em escolher o local onde toda a mágica irá acontecer. Aqui, você é quem escolhe, e eu te acompanho nessa jornada!</p>
+                </div>
+                <div class="img-locacoes">
+                    <img src="img/05-Como-e-ensaio/foto-locacoes-template.jpg" alt="">
+                </div>
+            </div>
+            <div class="figurino" style="display: flex;">
+                <div class="img-figurino">
+                    <img src="img/05-Como-e-ensaio/imagens-figurino-template.jpg" alt="">
+                </div>
+                <div class="texto-figurino">
+                    <h2>Locações</h2>
+                    <p>Toda nossa sessão é pensada com muito cuidado e apreço, de acordo com as preferências de cada cliente.</p>
+                    <p>Por isso, valorizo a liberdade do nosso viajante em escolher o local onde toda a mágica irá acontecer. Aqui, você é quem escolhe, e eu te acompanho nessa jornada!</p>
+                </div>
+            </div>
+            <!-- ACORDION -->
+            <div class="acordion">
+                <img src="img/05-Como-e-ensaio/fundo-accordion-topo.jpg" alt="">
+                <h2>Dúvidas Frequentes</h2>
+                <h3>1 - Como são os ensaios comigo?</h3>
+                <p>Os nossos ensaios são pensados cuidadosamente e com <strong>muito respeito de modo a alinhar as expectativas dos clientes</strong> com os serviços que eu ofereço. </p>
+                <p>Por isso, um bom planejamento feito a partir de um diálogo transparente e inspirador vai gerar um resultado único e satisfatório para ambas as partes.</p>
+                <p>O meu papel aqui é entender através da nossa conversa os seus sonhos e objetivos com a nossa sessão! </p>
+                <p>Nós vamos conversar sobre sua personalidade, sobre o uso das fotografias, vamos trocar referências e definir <strong>todos os detalhes do ensaio, como data, figurinos, locação e entrega das fotos.</strong> Para isso, podemos fazer uma videochamada ou uma reunião presencial. </p>
+                <h3>2 - O figurino eu que escolho?</h3>
+                <p>Os nossos ensaios são pensados cuidadosamente e com <strong>muito respeito de modo a alinhar as expectativas dos clientes</strong> com os serviços que eu ofereço. </p>
+                <p>Por isso, um bom planejamento feito a partir de um diálogo transparente e inspirador vai gerar um resultado único e satisfatório para ambas as partes.</p>
+                <p>O meu papel aqui é entender através da nossa conversa os seus sonhos e objetivos com a nossa sessão! </p>
+                <p>Nós vamos conversar sobre sua personalidade, sobre o uso das fotografias, vamos trocar referências e definir <strong>todos os detalhes do ensaio, como data, figurinos, locação e entrega das fotos.</strong> Para isso, podemos fazer uma videochamada ou uma reunião presencial. </p>
+                <h3>3 - Como é a maquiagem do ensaio?</h3>
+                <p>Os nossos ensaios são pensados cuidadosamente e com <strong>muito respeito de modo a alinhar as expectativas dos clientes</strong> com os serviços que eu ofereço. </p>
+                <p>Por isso, um bom planejamento feito a partir de um diálogo transparente e inspirador vai gerar um resultado único e satisfatório para ambas as partes.</p>
+                <p>O meu papel aqui é entender através da nossa conversa os seus sonhos e objetivos com a nossa sessão! </p>
+                <p>Nós vamos conversar sobre sua personalidade, sobre o uso das fotografias, vamos trocar referências e definir <strong>todos os detalhes do ensaio, como data, figurinos, locação e entrega das fotos.</strong> Para isso, podemos fazer uma videochamada ou uma reunião presencial. </p>
+                <h3>4 - Posso parcelar o ensaio?</h3>
+                <p>Os nossos ensaios são pensados cuidadosamente e com <strong>muito respeito de modo a alinhar as expectativas dos clientes</strong> com os serviços que eu ofereço. </p>
+                <p>Por isso, um bom planejamento feito a partir de um diálogo transparente e inspirador vai gerar um resultado único e satisfatório para ambas as partes.</p>
+                <p>O meu papel aqui é entender através da nossa conversa os seus sonhos e objetivos com a nossa sessão! </p>
+                <p>Nós vamos conversar sobre sua personalidade, sobre o uso das fotografias, vamos trocar referências e definir <strong>todos os detalhes do ensaio, como data, figurinos, locação e entrega das fotos.</strong> Para isso, podemos fazer uma videochamada ou uma reunião presencial. </p>
+                <img src="img/05-Como-e-ensaio/fundo-accordion-base.jpg" alt="">
+            </div>
+            <!-- BUTTON -->
+            <div class="cta-sobre">
+                <a href="https://api.whatsapp.com/message/YTPTGGXGTERPN1?autoload=1&app_absent=0"
+                    target="_blank"><button>volte ao passado comigo</button></a>
             </div>
         </div>
-
-        <div class="locacoes" style="display: flex;">
-            <div class="texto-locacoes">
-                <h2>Locações</h2>
-                <p>Toda nossa sessão é pensada com muito cuidado e apreço, de acordo com as preferências de cada cliente.</p>
-                <p>Por isso, valorizo a liberdade do nosso viajante em escolher o local onde toda a mágica irá acontecer. Aqui, você é quem escolhe, e eu te acompanho nessa jornada!</p>
-            </div>
-            <div class="img-locacoes">
-                <img src="img/05-Como-e-ensaio/foto-locacoes-template.jpg" alt="">
-            </div>
-        </div>
-
-        <div class="figurino" style="display: flex;">
-            <div class="img-figurino">
-                <img src="img/05-Como-e-ensaio/imagens-figurino-template.jpg" alt="">
-            </div>
-            <div class="texto-figurino">
-                <h2>Locações</h2>
-                <p>Toda nossa sessão é pensada com muito cuidado e apreço, de acordo com as preferências de cada cliente.</p>
-                <p>Por isso, valorizo a liberdade do nosso viajante em escolher o local onde toda a mágica irá acontecer. Aqui, você é quem escolhe, e eu te acompanho nessa jornada!</p>
-            </div>
-        </div>
-
-        <!-- ACORDION -->
-
-        <div class="acordion">
-            <img src="img/05-Como-e-ensaio/fundo-accordion-topo.jpg" alt="">
-            <h2>Dúvidas Frequentes</h2>
-
-            <h3>1 - Como são os ensaios comigo?</h3>
-            <p>Os nossos ensaios são pensados cuidadosamente e com <strong>muito respeito de modo a alinhar as expectativas dos clientes</strong> com os serviços que eu ofereço. </p>
-            <p>Por isso, um bom planejamento feito a partir de um diálogo transparente e inspirador vai gerar um resultado único e satisfatório para ambas as partes.</p>
-            <p>O meu papel aqui é entender através da nossa conversa os seus sonhos e objetivos com a nossa sessão! </p>
-            <p>Nós vamos conversar sobre sua personalidade, sobre o uso das fotografias, vamos trocar referências e definir <strong>todos os detalhes do ensaio, como data, figurinos, locação e entrega das fotos.</strong> Para isso, podemos fazer uma videochamada ou uma reunião presencial. </p>
-
-            <h3>2 - O figurino eu que escolho?</h3>
-            <p>Os nossos ensaios são pensados cuidadosamente e com <strong>muito respeito de modo a alinhar as expectativas dos clientes</strong> com os serviços que eu ofereço. </p>
-            <p>Por isso, um bom planejamento feito a partir de um diálogo transparente e inspirador vai gerar um resultado único e satisfatório para ambas as partes.</p>
-            <p>O meu papel aqui é entender através da nossa conversa os seus sonhos e objetivos com a nossa sessão! </p>
-            <p>Nós vamos conversar sobre sua personalidade, sobre o uso das fotografias, vamos trocar referências e definir <strong>todos os detalhes do ensaio, como data, figurinos, locação e entrega das fotos.</strong> Para isso, podemos fazer uma videochamada ou uma reunião presencial. </p>
-
-            <h3>3 - Como é a maquiagem do ensaio?</h3>
-            <p>Os nossos ensaios são pensados cuidadosamente e com <strong>muito respeito de modo a alinhar as expectativas dos clientes</strong> com os serviços que eu ofereço. </p>
-            <p>Por isso, um bom planejamento feito a partir de um diálogo transparente e inspirador vai gerar um resultado único e satisfatório para ambas as partes.</p>
-            <p>O meu papel aqui é entender através da nossa conversa os seus sonhos e objetivos com a nossa sessão! </p>
-            <p>Nós vamos conversar sobre sua personalidade, sobre o uso das fotografias, vamos trocar referências e definir <strong>todos os detalhes do ensaio, como data, figurinos, locação e entrega das fotos.</strong> Para isso, podemos fazer uma videochamada ou uma reunião presencial. </p>
-
-            <h3>4 - Posso parcelar o ensaio?</h3>
-            <p>Os nossos ensaios são pensados cuidadosamente e com <strong>muito respeito de modo a alinhar as expectativas dos clientes</strong> com os serviços que eu ofereço. </p>
-            <p>Por isso, um bom planejamento feito a partir de um diálogo transparente e inspirador vai gerar um resultado único e satisfatório para ambas as partes.</p>
-            <p>O meu papel aqui é entender através da nossa conversa os seus sonhos e objetivos com a nossa sessão! </p>
-            <p>Nós vamos conversar sobre sua personalidade, sobre o uso das fotografias, vamos trocar referências e definir <strong>todos os detalhes do ensaio, como data, figurinos, locação e entrega das fotos.</strong> Para isso, podemos fazer uma videochamada ou uma reunião presencial. </p>
-            <img src="img/05-Como-e-ensaio/fundo-accordion-base.jpg" alt="">
-        </div>
-
-        <!-- BUTTON -->
-        <div class="cta-sobre">
-            <a href="https://api.whatsapp.com/message/YTPTGGXGTERPN1?autoload=1&app_absent=0"
-                target="_blank"><button>volte ao passado comigo</button></a>
-        </div>
-
-        <!--FOOTER-->
+    </main>
+    <!--FOOTER-->
+    <footer>
         <div class="footer-sobre">
             <div class="logo-rodape col-1">
                 <img src="img/07-icones-logotipos/logo-principal-rodope.svg" alt="">
@@ -170,6 +218,6 @@
                         src="img/07-icones-logotipos/icon-corassaum.svg" alt="coração"> por Alisson Duarte</span>
             </p>
         </div>
-    </div>
+    </footer>
 </body>
 </html>
