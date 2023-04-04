@@ -57,6 +57,11 @@ a.btn {
     background-image: url('assets/img/01-home/depoimentos-bg.jpg');
     background-repeat: no-repeat;
     height: 80vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-position: bottom;
+    padding: 3rem;
 }
 .slide-title{
     padding:1rem
@@ -104,6 +109,10 @@ a.btn {
 
 .text-box a {
     text-decoration: none;
+}
+.text-box p {
+    font-size: 16px;
+    font-style: italic;
 }
 .text-box a > p{
     text-decoration: none;
