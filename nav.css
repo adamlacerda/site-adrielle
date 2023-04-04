@@ -54,7 +54,6 @@ nav p{
     display: none;
 }
 
-
 .overlay {
     height: 0;
     width: 100%;
@@ -63,32 +62,26 @@ nav p{
     top: 0;
     left: 0;
     background-image: url('assets/img/07-banners/fundo-menu-fullscreen-desktop.jpg');
-    background-position:bottom;
+    background-position-y: 110%;
     background-repeat: no-repeat;
     background-color: rgb(254 254 254);
     overflow-x: hidden;
     transition: 0.5s;
+    background-size: contain;
   }
   
   .overlay-content {
     position: relative;
-    top: 25%;
+    top: 10px;
     width: 100%;
     text-align: center;
-    margin-top: -12rem;
   }
-  
+
   .overlay a {
-    padding: 8px;
     text-decoration: none;
     font-size: 36px;
-    color: #818181;
     display: block;
     transition: 0.3s;
-  }
-  
-  .overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
   }
   
   .overlay .closebtn {
@@ -96,6 +89,7 @@ nav p{
     top: 20px;
     right: 45px;
     font-size: 0.75rem;
+    z-index: 2;
   }
 
 

@@ -45,6 +45,9 @@
     cursor: pointer;
     transition: 0.5s ease-in;
 }
+a.btn {
+    text-decoration: none;
+}
 .btn:hover{
     background-color: #b3784c;
     transition: 0.5s ease-in;
@@ -98,15 +101,46 @@
     cursor: pointer;
     text-align: center;
 }
-.text-box:hover h2{
+
+.text-box a {
+    text-decoration: none;
+}
+.text-box a > p{
+    text-decoration: none;
+    color:#7d4c23;
+}
+.text-box a:hover  p {
+    color:#f0792d
+}
+.text-box a:hover h2 {
+    color:#f0792d
+}
+.text-box a:hover h4 {
+    color:#f0792d
+}
+
+/* .text-box:hover h2{
     color: #f0792d;
     transition: 0.5s ease-in-out;
 }
 .text-box:hover i{
     color: #f0792d;
     transition: 0.5s ease-in-out;
-}
+} */
+
 footer{
     height: 50px;
     background-color: #2f2a2e;
+}
+
+/* Sobre */
+
+.banner-sobre{
+    background-image: url(assets/img/07-banners/pag-fotografa-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    height: 333px;
+    text-align: center;
+    padding: 5rem;
 }
