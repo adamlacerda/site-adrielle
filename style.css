@@ -144,3 +144,39 @@ footer{
     text-align: center;
     padding: 5rem;
 }
+
+.sobre-texto{
+    margin: 80px auto 104px;
+    padding: 0 114px;
+}
+
+.sobre-texto p{
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.row.texto-meio {
+    margin-bottom: 104px;
+}
+
+.row.texto-meio h2 {
+    color: #B3784C;
+    font-size: 32px;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.row.texto-meio p {
+    max-width: 204px;
+    color: #B3784C;
+    font-size: 20px;    
+    text-align: center;
+    margin: 0 auto;
+}
+
+.col-12.img-sobre {
+    text-align: center;
+    margin-bottom: 104px;
+}
