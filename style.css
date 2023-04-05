@@ -30,7 +30,9 @@
     padding-bottom: 0;
 }   
 .content-image{
-    padding-top: 5rem;
+    padding-top: 2rem;
+    width: 376px;
+    height: 356px;
 }
 
 .btn{
@@ -102,6 +104,20 @@ a.btn {
     flex-direction: row;
     justify-content: space-between;
 }
+.footer-2{
+    padding: 0px 2rem;
+}
+.footer-2 .text-box p{
+    font-size: 12px;
+    margin-bottom: 0.50em;
+}
+.footer-2 .text-box h2{
+    font-size: 16px;
+    padding: 0;
+}
+.footer-2 .text-box{
+    text-align: left;
+}
 .text-box{
     cursor: pointer;
     text-align: center;
@@ -140,6 +156,12 @@ a.btn {
 footer{
     height: 50px;
     background-color: #2f2a2e;
+}
+footer > span {
+    margin: 0 25px;
+}
+footer > img{
+    margin: 0 10px;
 }
 
 /* Sobre */
