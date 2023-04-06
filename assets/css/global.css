@@ -72,6 +72,10 @@ footer{
   flex-direction: row;
   flex-wrap: nowrap;
 }
+
+.text-top{
+  margin-top: 80px;
+}
 /* Extra small devices (portrait phones, less than 576px) */
 .col-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xl-1 {
     width: 8.33333333%;

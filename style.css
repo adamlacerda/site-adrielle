@@ -176,8 +176,19 @@ footer > img{
     padding: 5rem;
 }
 
+.banner-sobre h1 {
+    font-size: 64px;
+}
+
+.banner-sobre p {
+    color: #7D4C23;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: normal;
+}
+
 .sobre-texto{
-    margin: 80px auto 104px;
+    margin-bottom: 104px;
     padding: 0 114px;
 }
 
@@ -225,12 +236,45 @@ footer > img{
     padding: 5rem;
 }
 
-.row.row-ensaios {
-    width: 786px;
+.banner-historias h1 {
+    font-size: 64px;
 }
 
-/* Galeria de Fotos */
+.banner-historias p {
+    color: #7D4C23;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: normal;
+}
 
+.row.row-ensaios {
+    width: 786px;
+    margin-bottom: 80px;
+}
+
+.texto-topo p {
+    font-size: 24px;
+    margin-bottom: 80px ;
+}
+
+.row.row-ensaios.box-image h2 {
+    text-align: center;
+    padding: 32px 0 24px;
+    font-size: 32px;
+}
+
+.row.row-ensaios.box-image p {
+    padding-bottom: 16px;
+}
+
+.row.row-ensaios.box-image a {
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #7d4c23;
+    font-family: 'Gradia-Regular', sans-serif;
+}
+
+/* Como é o ensaio */
 .banner-ensaio{
     background-image: url(assets/img/07-banners/desktop-banner-mexico-encantador.jpg);
     background-repeat: no-repeat;
@@ -241,16 +285,38 @@ footer > img{
     padding: 5rem;
 }
 
-/* Como é o ensaio */
+.banner-ensaio h1 {
+    font-size: 64px;
+}
 
-.banner-ensaio{
-    background-image: url(assets/img/07-banners/banner-maquina-do-tempo.jpg);
+.banner-ensaio p {
+    color: #7D4C23;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+/* Galeria de fotos */
+
+.banner-galeria{
+    background-image: url(assets/img/07-banners/desktop-banner-mexico-encantador-2.jpg);
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
     height: 333px;
     text-align: center;
     padding: 5rem;
+}
+
+.banner-galeria h1 {
+    font-size: 64px;
+}
+
+.banner-galeria p {
+    color: #7D4C23;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: normal;
 }
 
 /* Contato */
@@ -265,6 +331,17 @@ footer > img{
     padding: 5rem;
 }
 
+.banner-contato h1 {
+    font-size: 64px;
+}
+
+.banner-contato p {
+    color: #7D4C23;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: normal;
+}
+
 /* Política de privacidade */
 
 .banner-politica{
@@ -275,6 +352,17 @@ footer > img{
     height: 333px;
     text-align: center;
     padding: 5rem;
+}
+
+.banner-politica h1 {
+    font-size: 64px;
+}
+
+.banner-politica p {
+    color: #7D4C23;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: normal;
 }
 
 .banner-politica a{
