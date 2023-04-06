@@ -1,0 +1,19 @@
+.acordion-box{
+    cursor: pointer;
+    height: auto;
+    transition: all 1s ease-in-out;
+    margin-bottom: 1rem;
+}
+.acordion-box span{
+    font-size: 24px;
+    color: #7d4c23;
+}
+.acordion-content{
+    height: 0;
+    overflow: hidden;
+    transition: all 1s ease-in-out; 
+    margin:1rem 
+}
+.acordion-content.active{
+    height: 350px;
+}

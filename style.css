@@ -118,6 +118,12 @@ a.btn {
 .footer-2 .text-box{
     text-align: left;
 }
+.footer-2 .text-box a{
+    line-height: 0;
+}
+.footer-2 .text-box p{
+    margin-bottom: 1.5em;
+}
 .text-box{
     cursor: pointer;
     text-align: center;
@@ -125,6 +131,7 @@ a.btn {
 
 .text-box a {
     text-decoration: none;
+
 }
 .text-box p {
     font-size: 16px;
