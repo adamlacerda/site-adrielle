@@ -211,3 +211,72 @@ footer > img{
     text-align: center;
     margin-bottom: 104px;
 }
+
+
+/* Portfólio de ensaios */
+
+.banner-historias{
+    background-image: url(assets/img/07-banners/pag-historias-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    height: 333px;
+    text-align: center;
+    padding: 5rem;
+}
+
+.row.row-ensaios {
+    width: 786px;
+}
+
+/* Galeria de Fotos */
+
+.banner-ensaio{
+    background-image: url(assets/img/07-banners/desktop-banner-mexico-encantador.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    height: 333px;
+    text-align: center;
+    padding: 5rem;
+}
+
+/* Como é o ensaio */
+
+.banner-ensaio{
+    background-image: url(assets/img/07-banners/banner-maquina-do-tempo.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    height: 333px;
+    text-align: center;
+    padding: 5rem;
+}
+
+/* Contato */
+
+.banner-contato{
+    background-image: url(assets/img/07-banners/banner-volte-ao-passado-comigo.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    height: 333px;
+    text-align: center;
+    padding: 5rem;
+}
+
+/* Política de privacidade */
+
+.banner-politica{
+    background-image: url(assets/img/07-banners/banner-para-fotografos.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    height: 333px;
+    text-align: center;
+    padding: 5rem;
+}
+
+.banner-politica a{
+    text-decoration: none;
+}
