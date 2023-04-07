@@ -105,6 +105,7 @@ function openNav() {
   $('.acordion-box').find('span').on('click',function(){
     $(this).siblings().toggleClass('active');
   })
+  
 // $('.cube').each(function() {
 //     const fadeIn = [ {opacity:'100%'},{opacity:'0%'}]
 //     const timer = {

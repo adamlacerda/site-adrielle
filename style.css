@@ -171,6 +171,24 @@ footer > img{
     margin: 0 10px;
 }
 
+.banner-2{
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    height: 333px;
+    text-align: center;
+    padding: 5rem;
+}
+.banner-2 h1 {
+    font-size: 64px;
+}
+
+.banner-2 p {
+    color: #7D4C23;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: normal;
+}
 /* Sobre */
 
 .banner-sobre{
@@ -198,7 +216,11 @@ footer > img{
     margin-bottom: 104px;
     padding: 0 114px;
 }
-
+.content-flex{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
 .sobre-texto p{
   font-size: 24px;
   margin-bottom: 24px;
@@ -283,7 +305,7 @@ footer > img{
 
 /* Como é o ensaio */
 .banner-ensaio{
-    background-image: url(assets/img/07-banners/desktop-banner-mexico-encantador.jpg);
+    /* background-image: url(assets/img/07-banners/desktop-banner-mexico-encantador.jpg); */
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
@@ -301,6 +323,13 @@ footer > img{
     font-size: 20px;
     font-style: italic;
     font-weight: normal;
+}
+.acordion-section{
+    background-color: #F6ECE0;
+    padding-top: 5rem;
+    background-image: url(assets/img/05-Como-e-ensaio/fundo-accordion-base.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 /* Galeria de fotos */

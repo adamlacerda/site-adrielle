@@ -1,15 +1,15 @@
 *,::after,::before{
     margin: 0;
     box-sizing: border-box;
-    
 }
+
 h1,h2,h3,h4,h5,h6{
     color: #7d4c23;
     font-family: 'Gradia-Regular', sans-serif;
     font-weight: 400;
     letter-spacing: 0.075rem;
     -webkit-font-smoothing: antialiased;
-    padding-top: 3rem;
+    
 }
 h1{
     font-size: 40px
@@ -61,11 +61,14 @@ footer{
     flex-direction: column;
     align-items: self-end;
 }
+.margin-header{
+  margin-bottom: 80px;
+}
 .margin-b-5{
     margin-bottom: 5rem;
 }
 .text-align-c{
-    text-align: center;;
+    text-align: center;
 }
 .d-flex{
   display: flex;

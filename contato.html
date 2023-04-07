@@ -22,119 +22,105 @@
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/slide.css">
     <link rel="shortcut icon" href="assets/img/07-icones-logotipos/icon-passarinho-menu.svg" type="image/x-icon">
 
 </head>
 
 <body>
-    <div class="container">
-        <!-- Header -->
-        <header class="header">
-            <nav id="menu-nav" class="overlay">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
-                    <img src="assets/img/07-icones-logotipos/icon-fechar-bt.svg" alt="">
-                    <p>fechar</p>
-                </a>
+  <div class="container">
+    <header class="header margin-header">
+      <nav id="menu-nav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+          <img src="assets/img/07-icones-logotipos/icon-fechar-bt.svg" alt="">
+          <p>fechar</p>
+        </a>
 
-                <div class="overlay-content">
-                    <a href="index.html"><img src="assets/img/07-icones-logotipos/icon-passarinho-menu.svg" alt=""></a>
-                    <div class="text-box">
-                        <a href="sobre.html">
-                            <h4> A fotógrafa</h4>
-                            <p>sobre</p>
-                        </a>
-                    </div>
-                    <div class="text-box">
-                        <a href="portfolio-de-ensaios.html">
-                            <h4>Histórias que já contei</h4>
-                            <p>Alguns ensaios que já realizei</p>
-                        </a>
-                    </div>
-                    <div class="text-box">
-                        <a href="como-e-ensaio.html ">
-                            <h4>Máquina do tempo</h4>
-                            <p>Como é o ensaio</p>
-                        </a>
-                    </div>
-                    <div class="text-box">
-                        <a href="contato.html">
-                            <h4>Volte ao passado comigo</h4>
-                            <p>Contato</p>
-                        </a>
+        <div class="overlay-content">
+          <a href="index.html"><img src="assets/img/07-icones-logotipos/icon-passarinho-menu.svg" alt=""></a>
+          <div class="text-box">
+            <a href="sobre.html">
+              <h4> A fotógrafa</h4>
+              <p>sobre</p>
+            </a>
+          </div>
+          <div class="text-box">
+            <a href="portfolio-de-ensaios.html">
+              <h4>Histórias que já contei</h4>
+              <p>Alguns ensaios que já realizei</p>
+            </a>
+          </div>
+          <div class="text-box">
+            <a href="como-e-ensaio.html ">
+              <h4>Máquina do tempo</h4>
+              <p>Como é o ensaio</p>
+            </a>
+          </div>
+          <div class="text-box">
+            <a href="contato.html">
+              <h4>Volte ao passado comigo</h4>
+              <p>Contato</p>
+            </a>
 
-                    </div>
-                    <div class="text-box">
-                        <a href="preset-page.html">
-                            <h4>Para fotógrafos</h4>
-                            <p>Preset</p>
-                        </a>
+          </div>
+          <div class="text-box">
+            <a href="preset-page.html">
+              <h4>Para fotógrafos</h4>
+              <p>Preset</p>
+            </a>
 
-                    </div>
+          </div>
 
-                </div>
+        </div>
 
-            </nav>
-            <span class="nav-toggle nav-toggle-hover nav-toggle-header fixed" onclick="openNav()">
-                <img src="assets/img/07-icones-logotipos/icon-menu.svg" alt="">
-                <p>Menu</p>
-            </span>
+      </nav>
 
-            <div class="col-12">
-                <div class="banner-contato">
-                    <h1>Volte ao passado comigo</h1>
-                    <p>contato</p>
-                </div>
+      <span class="nav-toggle home fixed-l">
+        <a href="index.html">
+          <img src="assets/img/07-icones-logotipos/logo-menu-topo.svg" alt="">
+
+        </a>
+       
+      </span> 
+
+      <span class="nav-toggle nav-toggle-hover nav-toggle-header fixed-r" onclick="openNav()">
+        <img src="assets/img/07-icones-logotipos/icon-menu.svg" alt="">
+        <p>Menu</p>
+      </span>
+
+      <div class="col-12">
+        <div class="banner-2" style="background-image: url(assets/img/07-banners/banner-volte-ao-passado-comigo.jpg)">
+          <h1>Volte ao passado comigo</h1>
+          <p>Contato</p>
+        </div>
+      </div>
+
+    </header>
+    <!-- MAIN -->
+    <main>
+      <div class="content">
+        <!-- Texto -->
+        <div class="row">
+
+          <div class="sobre-texto ">
+            <div class="col-12" style="margin-bottom:70px;">
+              <p>
+                Será uma alegria te levar nessa volta ao passado.
+                Entre em contato e vamos definir o melhor orçamento para sua viagem fotográfica.
+              </p>
+  
             </div>
-        </header>
-
-        <!-- MAIN -->
-        <main>
-            <div class="content">
-                <div class="texto-topo-main">
-                    <p>Será uma alegria te levar nessa volta ao passado. Entre em contato e vamos definir o melhor
-                        orçamento para
-                        sua viagem fotográfica.</p>
-                </div>
-
-                <div class="row">
-                    <div class="col-12">
-                        <span>Enviar mensagem por: </span> <a
-                            href="https://api.whatsapp.com/message/YTPTGGXGTERPN1?autoload=1&app_absent=0"><button>whatsapp</button></a>
-
-                    </div>
-                </div>
-
-                <!-- FORM -->
-                <form action="/enviar-contato" method="post">                    
-                    <div class="row">
-                        <div class="col-6">
-                            <label for="nome">Nome:</label>
-                            <input type="text" id="nome" name="nome" required>
-                        </div>
-                        <div class="col-6">
-                            <label for="email">E-mail:</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="col-6">
-                            <label for="cidade">Cidade:</label>
-                            <input type="text" id="cidade" name="cidade" required>
-                        </div>
-                        <div class="col-6">
-                            <label for="estado">Estado:</label>
-                            <input type="text" id="estado" name="estado" required>
-                        </div>
-                        <div class="col-12">
-                            <label for="mensagem">Mensagem:</label>
-                            <textarea id="mensagem" name="mensagem" required></textarea>
-                        </div>
-                        <div class="col-12">
-                            <button type="submit">enviar email</button>
-                        </div>
-                    </div>
-                </form>
-
+            <div class="col-12 content-flex">
+              <h2 style="margin-right: 4rem;">Enviar mensagem por: </h2> <a href="#" class="btn">whatsapp</a>
+  
             </div>
-        </main>
+
+          </div>
+ 
+       
+        </div>
+      </div>
+    </main>
 
     <!-- Footer -->
     <div class="footer-section">
@@ -210,6 +196,8 @@
     <!-- END FOOTER -->
 
   </div>
+
+
   <!-- Script -->
   <script type="text/javascript" src="./assets/js/script.js"></script>
 </body>
