@@ -377,7 +377,43 @@ footer > img{
     font-style: italic;
     font-weight: normal;
 }
+.form-content{
+    text-align: center;
+}
+.form-content > h1{
+    margin-bottom: 70px;
+}
+.form-style{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
+.form-input-style{
+    width: 47%;
+    margin: 1px;
+    border: none;
+    font-size: 16px;
+    border-bottom: #A3987C 1px solid;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    color: #B3784C;
+}
+.form-input-style::placeholder{
+    color: #B3784C;
+}
+.form-input-style.full{
+    width: 100%;
+    padding-bottom: 3rem;
+}
+.form-btn-style.btn{
+    background-color: #FFFBEB;
+    border: #E8D9B2 1px solid;
+    color: #A3987C;
+    font-size: 24px;
+    padding: 16px 24px;
+    border-radius: 8px;
+}
 /* Política de privacidade */
 
 .banner-politica{
