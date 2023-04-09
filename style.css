@@ -440,3 +440,128 @@ footer > img{
 .banner-politica a{
     text-decoration: none;
 }
+
+/* Para fotógrafos */
+
+.preset-content{
+    margin-bottom: 90px;
+}
+.preset-card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.preset-header img{
+    margin-bottom: 40px;
+}
+.preset-header h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.075em;
+    font-feature-settings: 'liga' off;
+    color: #7D4C23;
+}
+.preset-body{
+    padding: 1rem 3rem;
+    margin-bottom: 24px;
+}
+.preset-body p{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.025em;
+    text-align: left;
+}
+.preset-price small{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.025em;
+    color: #A3987C;
+    margin-bottom: 8px;
+}
+.preset-price small > span{
+    text-decoration: line-through;
+}
+.preset-price strong {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+text-align: center;
+letter-spacing: 0.025em;
+color: #F0792D;
+}
+.preset-price{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.preset-button .btn{
+    padding: 16px 32px;
+    font-family: 'Gradia';
+    font-style: normal;
+    /* font-weight: 400; */
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.075em;
+}
+/* Preset */
+.preset-big-card{
+    display: flex;
+    flex-direction: column;
+    padding: 0 114px;
+    margin-bottom: 100px;
+}
+.big-card-content{
+    margin-bottom: 30px;
+
+}
+.big-card-title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.big-card-title img{
+    margin-right: 1rem;
+}
+.big-card-title p {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+/* AG-9-call to action */
+
+color: #F0792D;
+}
+.big-card-title strong {
+    color: #F0792D;
+
+}
+.preset-text p{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+}
+.preset-text h1{
+    margin-bottom: 30px;
+}
+.big-card-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.big-card-footer > .preset-price{
+    align-items: baseline;
+}
