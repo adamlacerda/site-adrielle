@@ -44,15 +44,15 @@ footer{
 }
 .container{
     margin: 0 auto;
-    width: 1360px;
+}
+.content{
+  margin: 0 auto;
 }
 .row{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: 980px;
     margin: 0 auto;
 }
 
@@ -75,7 +75,9 @@ footer{
   flex-direction: row;
   flex-wrap: nowrap;
 }
-
+.column-reverse{
+  flex-direction: row;
+}
 .text-top{
   margin-top: 80px;
 }
@@ -117,8 +119,103 @@ footer{
     width: 100%;
   }
   
+  @media screen and (min-width: 980px) {
+    .container{
+      width: 1360px;
+    }
+    .content{
+      width: 980px;
+    }
+    .col-1 {
+    width: 8.33333333%;
+  }
+  .col-2{
+    width: 16.66666667%;
+  }
+  .col-3{
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33333333%;
+  }
+  .col-5{
+    width: 41.66666667%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33333333%;
+  }
+  .col-8 {
+    width: 66.66666667%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33333333%;
+  }
+  .col-11{
+    width: 91.66666667%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+
+  }
   /* Small devices (landscape phones, 576px and up) */
-  @media (min-width: 576px) {
+  @media screen and (max-width: 576px) {
+    /* SLIDE */
+    .slider{
+      max-width: 100%!important;
+    }
+    .slide-section{
+      height: auto;
+      padding: 1rem;
+      background-size: cover;
+    }
+    .d-flex{
+      flex-wrap: wrap;
+    }
+    .slide_viewer{
+      height: 100vh!important;
+    }
+    .slide-text p{
+      padding: 0!important;
+    }
+    /* SLIDE */
+    .header-banner{
+      height: 400px;
+    }
+    .content-image{
+      margin: 0 auto;
+    }
+    .fixed-r{
+    margin: 1rem;
+    }
+    .btn{
+      padding: 1.5rem 1rem;
+    }
+    .pictures-section{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .column-reverse{
+      flex-direction: column-reverse;
+    }
+    /* Footer*/
+    footer{
+      flex-direction:column;
+      height: auto;
+    }
+    .footer-section{
+      height: auto;
+      background-image: none;
+    }
+    .footer-about{
+      flex-direction: column;
+    }
     .col-sm-1 {
       width: 8.33333333%;
     }
