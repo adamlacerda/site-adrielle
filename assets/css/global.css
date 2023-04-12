@@ -180,7 +180,6 @@ footer{
     /* Banner */
     .banner-2{
       height: 200px;
-      background-image: url('../img/07-m-banners/m-header-fotografa.jpg');
 
     }
     .banner-2 h1{
@@ -286,6 +285,9 @@ footer{
   }
 
   /* Sobre */
+  .b-sobre{
+    background-image: url('../img/07-m-banners/m-header-fotografa.jpg')
+  }
   .sobre-texto{
     padding: 0 1rem;
     text-align: justify;
