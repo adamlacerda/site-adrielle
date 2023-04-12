@@ -180,7 +180,7 @@ footer{
     /* Banner */
     .banner-2{
       height: 200px;
-      background-image: url('/assets/img/07-m-banners/m-header-fotografa.jpg');
+      background-image: url('../img/07-m-banners/m-header-fotografa.jpg');
 
     }
     .banner-2 h1{
@@ -200,7 +200,7 @@ footer{
       height: auto;
       padding: 1rem;
       background-size: cover;
-      background-image: url('/assets/img/07-m-banners/m-depoimentos-fundo.jpg');
+      background-image: url('../img/07-m-banners/m-depoimentos-fundo.jpg');
     }
     .d-flex{
       flex-wrap: wrap;
