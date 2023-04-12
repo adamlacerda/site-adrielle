@@ -198,30 +198,14 @@ footer > img{
 }
 /* Sobre */
 
-.banner-sobre{
-    background-image: url(assets/img/07-banners/pag-fotografa-banner.jpg);
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
-    height: 333px;
-    text-align: center;
-    padding: 5rem;
-}
-
-.banner-sobre h1 {
-    font-size: 64px;
-}
-
-.banner-sobre p {
-    color: #7D4C23;
-    font-size: 20px;
-    font-style: italic;
-    font-weight: normal;
+.b-sobre{
+    background-image: url('assets/img/07-banners/pag-fotografa-banner.jpg')
 }
 
 .sobre-texto{
     margin-bottom: 104px;
     padding: 0 114px;
+    text-align: inherit;
 }
 .content-flex{
     display: flex;
@@ -233,11 +217,11 @@ footer > img{
   margin-bottom: 24px;
 }
 
-.row.texto-meio {
+.texto-meio {
     margin-bottom: 104px;
 }
 
-.row.texto-meio h2 {
+.texto-meio h2 {
     color: #B3784C;
     font-size: 32px;
     padding-top: 0;
@@ -246,14 +230,16 @@ footer > img{
     text-align: center;
 }
 
-.row.texto-meio p {
+.texto-meio p {
     max-width: 204px;
     color: #B3784C;
     font-size: 20px;    
     text-align: center;
     margin: 0 auto;
 }
-
+.texto-meio > div{
+    margin-bottom: 2rem;
+}
 .col-12.img-sobre {
     text-align: center;
     margin-bottom: 104px;
@@ -283,9 +269,11 @@ footer > img{
     font-weight: normal;
 }
 
-.row.row-ensaios {
+.ensaios {
     width: 786px;
     margin-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .texto-topo p {
@@ -293,17 +281,17 @@ footer > img{
     margin-bottom: 80px ;
 }
 
-.row.row-ensaios.box-image h2 {
+.ensaios.box-image h2 {
     text-align: center;
     padding: 32px 0 24px;
     font-size: 32px;
 }
 
-.row.row-ensaios.box-image p {
-    padding-bottom: 16px;
+.ensaios.box-image p {
+    padding: 0 0 16px 0;
 }
 
-.row.row-ensaios.box-image a {
+.ensaios.box-image a {
     padding: 8px 16px;
     text-decoration: none;
     color: #7d4c23;

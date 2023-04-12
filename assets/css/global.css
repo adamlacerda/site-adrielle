@@ -60,6 +60,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: self-end;
+    margin-bottom: 80px;
 }
 .margin-header{
   margin-bottom: 80px;
@@ -81,6 +82,12 @@ footer{
 .text-top{
   margin-top: 80px;
 }
+
+
+.d-block{
+  display: block;
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
 .col-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xl-1 {
     width: 8.33333333%;
@@ -166,6 +173,25 @@ footer{
   }
   /* Small devices (landscape phones, 576px and up) */
   @media screen and (max-width: 576px) {
+
+    .d-md-none{
+      display: none;
+    }
+    /* Banner */
+    .banner-2{
+      height: 200px;
+      background-image: url('/assets/img/07-m-banners/m-header-fotografa.jpg');
+
+    }
+    .banner-2 h1{
+      font-size: 32px;
+    }
+    .banner-2 p{
+      font-size: 16px;
+    }
+    .header{
+      margin-bottom: 40px;
+    }
     /* SLIDE */
     .slider{
       max-width: 100%!important;
@@ -174,12 +200,14 @@ footer{
       height: auto;
       padding: 1rem;
       background-size: cover;
+      background-image: url('/assets/img/07-m-banners/m-depoimentos-fundo.jpg');
     }
     .d-flex{
       flex-wrap: wrap;
     }
     .slide_viewer{
-      height: 100vh!important;
+      height: 870px!important;
+      overflow: visible;
     }
     .slide-text p{
       padding: 0!important;
@@ -194,8 +222,12 @@ footer{
     .fixed-r{
     margin: 1rem;
     }
+    .fixed-l{
+      left: 0;
+    }
     .btn{
       padding: 1.5rem 1rem;
+      font-size: 1.50rem;
     }
     .pictures-section{
       display: grid;
@@ -252,4 +284,44 @@ footer{
     .col-sm-12 {
       width: 100%;
   }
+
+  /* Sobre */
+  .sobre-texto{
+    padding: 0 1rem;
+    text-align: justify;
+    margin-bottom: 3rem;
+  }
+  .sobre-texto p{
+    font-size: 20px;
+  }
+  .texto-meio h2{
+    margin-bottom: 1rem;
+  }
+  .texto-meio p{
+    max-width: 100%;
+    font-size: 16px;
+   
+  }
+  .footer-2{
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+  .footer-2 .text-box {
+    text-align: center;
+}
+  .footer-2 .text-box p{
+    margin-bottom: 2.5em;
+  }
+  .footer-2 > .text-box:first-child{
+    margin-bottom: 2rem;
+  }
+  /* portfolio-ensaios */
+  .ensaios.box-image p{
+    padding: 1rem;
+  }
+  .texto-topo p {
+    font-size: 16px;
+    line-height: 2.75rem;
+    margin-bottom: 0;
+}
 }
