@@ -84,6 +84,7 @@ footer{
 }
 
 
+
 .d-block{
   display: block;
 }
@@ -296,13 +297,15 @@ footer{
   .sobre-texto p{
     font-size: 20px;
   }
+  .texto-meio{
+    margin-bottom: 40px;
+  }
   .texto-meio h2{
     margin-bottom: 1rem;
   }
   .texto-meio p{
     max-width: 100%;
     font-size: 16px;
-   
   }
   .footer-2{
     align-items: center;
@@ -318,12 +321,36 @@ footer{
     margin-bottom: 2rem;
   }
   /* portfolio-ensaios */
+  .box-image{
+    padding: 1.75rem;
+    margin-bottom: 0;
+  }
+  .ensaios{
+    margin-bottom: 40px;
+  }
   .ensaios.box-image p{
     padding: 1rem;
   }
+
   .texto-topo p {
     font-size: 16px;
     line-height: 2.75rem;
     margin-bottom: 0;
+    padding: 1rem;
+}
+
+.b-historias{
+  background-image: url('../img/07-m-banners/m-header-historias.jpg');
+}
+/* Como e ensaio */
+.text-content{
+  padding: 1rem;
+}
+.text-content h2{
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+.image-content{
+  padding: 3rem;
 }
 }

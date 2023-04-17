@@ -268,6 +268,9 @@ footer > img{
     font-style: italic;
     font-weight: normal;
 }
+.b-historias{
+    background-image: url('assets/img/07-banners/pag-historias-banner.jpg');
+}
 
 .ensaios {
     width: 786px;
@@ -281,24 +284,39 @@ footer > img{
     margin-bottom: 80px ;
 }
 
-.ensaios.box-image h2 {
+.box-image h2 {
     text-align: center;
     padding: 32px 0 24px;
     font-size: 32px;
 }
 
-.ensaios.box-image p {
+.box-image{
+    margin-bottom: 3rem;
+}
+
+.box-image p {
     padding: 0 0 16px 0;
 }
 
-.ensaios.box-image a {
+.box-image a {
     padding: 8px 16px;
     text-decoration: none;
     color: #7d4c23;
     font-family: 'Gradia-Regular', sans-serif;
+    background: #FFFBEB;
+    border-radius: 4px;
 }
 
 /* Como é o ensaio */
+.text-content{
+    padding: 0;
+}
+.text-content h2{
+    font-size: 40px;
+}
+.image-content{
+    padding: 0 3rem;
+}
 .banner-ensaio{
     /* background-image: url(assets/img/07-banners/desktop-banner-mexico-encantador.jpg); */
     background-repeat: no-repeat;
