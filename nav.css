@@ -113,6 +113,11 @@ nav p{
     display: block;
     transition: 0.3s;
   }
+
+  /* .overlay.a.passarinho {
+   max-width: 60px;
+  } */
+  
   
   .overlay .closebtn {
     position: absolute;
