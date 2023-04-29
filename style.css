@@ -146,6 +146,7 @@ a.btn {
 }
 .text-box a > p{
     text-decoration: none;
+    font-size: 24px;
     color:#7d4c23;
 }
 .text-box a:hover  p {
