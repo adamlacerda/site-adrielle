@@ -56,6 +56,10 @@ footer{
     margin: 0 auto;
 }
 
+.row-home{
+  margin-bottom: 104px;
+}
+
 .header{
     display: flex;
     flex-direction: column;
@@ -229,6 +233,8 @@ footer{
       padding: 1.5rem 1rem;
       font-size: 1.50rem;
     }
+
+    
     .pictures-section{
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;

@@ -48,14 +48,14 @@ nav p{
 .fixed-r{
     position: fixed;
     top: 20px;
-    margin: 1rem;
+    /* margin: 1rem; */
     margin-right: 5rem;
 }
 .fixed-l{
   position: fixed;
   top: 20px;
   left: 170px;
-  margin: 1rem;
+  /* margin: 1rem; */
   margin-right: 5rem;
 
 }
