@@ -117,7 +117,7 @@ a.btn {
     margin-bottom: 48px;
 }
 .footer-section{
-    background-image: url('assets/img/07-banners/rodape-desktop-3.jpg');
+    background-image: url('assets/img/07-banners/rodape-desktop-3-copia.png');
     background-size: cover;
     height: 200px;
     padding: 1rem;
@@ -134,10 +134,16 @@ a.btn {
 .footer-2 .text-box p{
     font-size: 12px;
     margin-bottom: 0.50em;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
 }
 .footer-2 .text-box h2{
     font-size: 16px;
     padding: 0;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 700;
 }
 .footer-2 .text-box{
     text-align: left;
@@ -303,7 +309,9 @@ footer > img{
 
 .texto-topo p {
     font-size: 24px;
-    margin-bottom: 80px ;
+    /* margin-bottom:  ; */
+    width: 780px;
+    margin:0 auto 80px;
 }
 
 .box-image h2 {
@@ -323,11 +331,22 @@ footer > img{
 .box-image a {
     padding: 8px 16px;
     text-decoration: none;
-    color: #7d4c23;
+    color: #786948;
     font-family: 'Gradia-Regular', sans-serif;
     background: #FFFBEB;
     border-radius: 4px;
 }
+
+.box-image a:hover {
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #FFFBEB;
+    font-family: 'Gradia-Regular', sans-serif;
+    background: #F0792D;
+    border-radius: 4px;
+    transition: all ease-in-out 0.5s;
+}
+
 
 /* Como é o ensaio */
 .text-content{
@@ -368,6 +387,15 @@ footer > img{
 }
 
 /* Galeria de fotos */
+.row-ensaios{
+    width: 786px;
+}
+.header-mexico{
+    display: flex;
+    flex-direction: column;
+    align-items: self-end;
+    margin-bottom: 64px;
+}
 
 .banner-galeria{
     background-image: url(assets/img/07-banners/desktop-banner-mexico-encantador-2.jpg);
@@ -376,7 +404,7 @@ footer > img{
     background-position: center;
     height: 333px;
     text-align: center;
-    padding: 5rem;
+    padding: 9.5rem 5rem 5rem;
 }
 
 .banner-galeria h1 {
@@ -390,6 +418,7 @@ footer > img{
     font-weight: normal;
 }
 
+  
 /* Contato */
 
 .banner-contato{
@@ -609,7 +638,7 @@ color: #F0792D;
     align-items: baseline;
 }
 
-
+/*  HOVER NOS ÍCONES */
 .orange-img img:nth-of-type(2) {
     display: none; /* oculta a segunda imagem */
   }

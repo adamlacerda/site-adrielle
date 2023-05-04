@@ -15,14 +15,14 @@ h1{
     font-size: 40px
 }
 p {
-    color: rgb(32 32 32);
+    color: #2F2A2E;
     font-size: 1.2rem;
     font-weight: 400;
     letter-spacing: 0.075px;
     line-height: 2rem;
 }
 body{
-    font-family: 'Open Sans',sans-serif
+    font-family: 'Open Sans',sans-serif;
 }
 
 img{
@@ -59,6 +59,7 @@ footer{
 .row-home{
   margin-bottom: 104px;
 }
+
 
 .header{
     display: flex;
