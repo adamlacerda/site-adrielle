@@ -30,7 +30,7 @@ img{
 }
 strong{
     font-weight: 900;
-    color: #ac7146;
+    color: #B3784C;
     font-family: 'Arial';
 }
 
@@ -47,6 +47,12 @@ footer{
 }
 .content{
   margin: 0 auto;
+  width: 786px;
+
+}
+.content-index{
+  margin: 0 auto;
+  width: 996px;
 }
 .row{
     display: flex;
@@ -54,6 +60,14 @@ footer{
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+}
+.row-textos-meio{
+  width: 786px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .row-home{

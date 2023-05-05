@@ -231,8 +231,10 @@ footer > img{
 }
 
 .sobre-texto{
-    margin-bottom: 104px;
-    padding: 0 114px;
+    margin: 0 auto 104px;
+    /* margin-bottom: 104px; */
+    padding: 0;
+    width: 786px;
     text-align: inherit;
 }
 .content-flex{
@@ -249,13 +251,17 @@ footer > img{
     margin-bottom: 104px;
 }
 
-.texto-meio h2 {
+.texto-meio h3 {
     color: #B3784C;
     font-size: 32px;
     padding-top: 0;
     margin-top: 0;
     margin-bottom: 32px;
     text-align: center;
+}
+
+.text-content-2 h2 {
+    font-size: 2.5rem;
 }
 
 .texto-meio p {
@@ -352,9 +358,19 @@ footer > img{
 .text-content{
     padding: 0;
 }
+.text-content-2{
+    width: 372px;
+    padding: 0;
+}
 .text-content h2{
     font-size: 40px;
+    margin-bottom: 2rem;
 }
+
+.text-content p{
+    margin-bottom: 1rem;
+}
+
 .image-content{
     padding: 0 3rem;
 }
@@ -381,9 +397,13 @@ footer > img{
 .acordion-section{
     background-color: #F6ECE0;
     padding-top: 5rem;
-    background-image: url(assets/img/05-Como-e-ensaio/fundo-accordion-base.jpg);
+    background-image: url(assets/img/05-Como-e-ensaio/fundo-accordion-topo.jpg);
     background-repeat: no-repeat;
     background-size: contain;
+}
+hr {
+    border: 1px solid #A3987C;
+    /* border-color: #A3987C; */
 }
 
 /* Galeria de fotos */

@@ -11,7 +11,7 @@
 .acordion-content{
     height: 0;
     overflow: hidden;
-    transition: all 1s ease-in-out; 
+    transition: all .7s ease-in-out; 
     margin:1rem 
 }
 .acordion-content.active{
