@@ -658,6 +658,12 @@ color: #F0792D;
     align-items: baseline;
 }
 
+/* POLÍTICA DE PRIVACIDADE */
+
+.banner-2 a{
+    text-decoration: none;
+}
+ 
 /*  HOVER NOS ÍCONES */
 .orange-img img:nth-of-type(2) {
     display: none; /* oculta a segunda imagem */

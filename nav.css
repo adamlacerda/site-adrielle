@@ -127,7 +127,26 @@ nav p{
     z-index: 2;
   }
 
-
+  a.orange-passarinho {
+    width: 50px;
+    margin: 0 auto;
+}
+  .orange-passarinho img:nth-of-type(2) {
+    display: none; /* oculta a segunda imagem */
+    width: 48px;
+    height: 38px;
+    margin: 0 auto 11px;
+  }
+  
+  .orange-passarinho:hover img:nth-of-type(1) {
+    display: none; /* oculta a primeira imagem */
+    transition: background-color ease-in-out 0.5s;
+  }
+  
+  .orange-passarinho:hover img:nth-of-type(2) {
+    display: block; /* exibe a segunda imagem */
+    transition: background-color ease-in-out 0.5s;
+  }
   
   @media screen and (max-height: 450px) {
     .overlay a {font-size: 20px}
